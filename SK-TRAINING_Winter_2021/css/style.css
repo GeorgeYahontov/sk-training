@@ -1,6 +1,23 @@
-* {
-  background: aliceblue;
+div {
+  background: aquamarine;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-div{
-    color:black;
+div:hover {
+  background: red;
+  cursor: pointer;
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+#item,
+p {
+  color: brown;
+}
+div p {
+  background-color: yellow;
+  color: blue;
+}
+span {
+  background-color: red;
 }
