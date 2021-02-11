@@ -1,6 +1,19 @@
 * {
   background: aliceblue;
 }
-div{
-    color:black;
+div {
+  color: black;
+}
+h1::after {
+  content: " - Hello World!";
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  border: 1px dotted grey;
+  width: 100px;
+  height: 20px;
+  margin: 5px;
 }
