@@ -1,0 +1,54 @@
+main {
+  max-width: 1280px;
+  margin: 20px auto;
+}
+main p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+}
+main nav {
+  max-width: 50%;
+  margin: 0 auto;
+}
+main nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+main nav ul li a {
+  text-decoration: none;
+  color: gray;
+  background: #fff;
+}
+main .icon {
+  font-size: 4em;
+}
+main nav ul li:nth-child(1) a:hover {
+  color: #385898;
+}
+main nav ul li:nth-child(2) a:hover {
+  color: #c4302b;
+}
+
+main nav ul li:nth-child(3) a:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 4em; /* change this to change the size*/
+}
+main nav ul li:nth-child(4) a:hover {
+  color: #e62b33;
+}
