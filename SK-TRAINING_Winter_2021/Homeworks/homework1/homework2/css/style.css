@@ -1,0 +1,71 @@
+main {
+  max-width: 1280px;
+  margin: 40px auto;
+}
+main .first-ex {
+  margin: 30px auto;
+}
+main .first-ex p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  width: fit-content;
+  padding: 0 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+main p::after,
+::before {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  font-size: 30px;
+}
+main p::after {
+  content: "«";
+  left: 5px;
+  top: -8px;
+  bottom: 0;
+}
+main p::before {
+  content: "»";
+  right: 5px;
+  top: -9px;
+  bottom: 0;
+}
+
+main .second-ex ul {
+  list-style: square;
+  padding: 10px 0 0 40px;
+}
+main .second-ex h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+main .second-ex ul li {
+  cursor: pointer;
+  font-size: 20px;
+}
+main .second-ex ul li:first-child {
+  color: red;
+}
+main .second-ex ul li:last-child {
+  color: green;
+}
+main .third-ex {
+  width: 100%;
+}
+main .third-ex li {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  border: 1px solid gray;
+  background: rgb(230, 230, 230);
+  width: calc((100% - 30px) / 3);
+  text-align: center;
+}
+main .third-ex li:nth-child(3) {
+  background: rgb(117, 250, 139);
+}
+main .third-ex li:nth-child(7) {
+  background: rgb(117, 250, 139);
+}
