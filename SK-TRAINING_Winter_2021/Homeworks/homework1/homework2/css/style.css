@@ -20,6 +20,7 @@ main p::after,
   font-family: "Lato", sans-serif;
   position: absolute;
   font-size: 30px;
+  color: #42a9b8;
 }
 main p::after {
   content: "«";
